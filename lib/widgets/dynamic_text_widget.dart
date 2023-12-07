@@ -102,36 +102,6 @@ class _DynamicTextWidgetState extends State<DynamicTextWidget> {
 
                 ),
               ),
-              // RichText(
-              //         text: TextSpan(
-              //           children: [
-              //             TextSpan(
-              //               text: isExpanded
-              //                   ? '$firstHalf$secondHalf '
-              //                   : '$firstHalf ...',
-              //               style: TextStyle(color: AppColor.tertiary,fontSize: 20,letterSpacing: 1.01 ,),
-              //             ),
-              //             TextSpan(
-              //               text: isExpanded
-              //                   ? "see less"
-              //                   : "see more",
-              //               style: const TextStyle(
-              //                 fontWeight: FontWeight.w400,
-              //                 fontSize: 20,
-              //                 color: Colors.blue,
-              //               ),
-              //               recognizer: TapGestureRecognizer()
-              //                 ..onTap = () {
-              //                   setState(
-              //                     () {
-              //                       isExpanded = !isExpanded;
-              //                     },
-              //                   );
-              //                 },
-              //             ),
-              //           ],
-              //         ),
-              //       ),
             ],
           ),
         ),
