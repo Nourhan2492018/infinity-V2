@@ -48,6 +48,8 @@ dependencies:
   firebase_auth: ^4.6.3
   firebase_storage: ^11.2.6
   image_picker: ^1.0.2
+  flutter_linkify: ^6.0.0
+  url_launcher: ^6.0.9
   dropdown_search: ^5.0.6
   firebase_admin: ^0.2.0
   intl: ^0.17.0
