@@ -28,11 +28,11 @@ class _SplashScreenState extends State<SplashScreen>with TickerProviderStateMixi
 
   }
   late final AnimationController _controller = AnimationController(
-    duration: const Duration(milliseconds: 4000),
+    duration: const Duration(milliseconds: 0),
     vsync: this,
   )..forward().then((value) => startAnimation());
   late final AnimationController _logoController = AnimationController(
-    duration: const Duration(milliseconds: 1500),
+    duration: const Duration(milliseconds: 2000),
     vsync: this,
   );
   late final Animation<Offset> _offsetLeafAnimation = Tween<Offset>(
@@ -108,26 +108,28 @@ class _SplashScreenState extends State<SplashScreen>with TickerProviderStateMixi
                 children: [
                   SlideTransition(
                     position: _offsetLeafAnimation,
-                    child: Container(
-                      margin: const EdgeInsets.all(10),
-                      height: 15,width: 15,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0,),
-                          color: AppColor.primary
-                      ),),
+                    child: Container(),
+                    // child: Container(
+                    //   margin: const EdgeInsets.all(10),
+                    //   height: 15,width: 15,
+                    //   decoration: BoxDecoration(
+                    //       borderRadius: BorderRadius.circular(10.0,),
+                    //       color: AppColor.primary
+                    //   ),),
                   ),
                   Text("Infinity",
                     style: TextStyle(fontSize: 28,fontWeight:FontWeight.normal,color: AppColor.primary),
                   ),
                   SlideTransition(
                     position:_offsetRightAnimation,
-                    child: Container(
-                      margin: const EdgeInsets.all(10),
-                      height: 15,width: 15,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0,),
-                          color: AppColor.primary
-                      ),),
+                    child: Container(),
+                    // child: Container(
+                    //   margin: const EdgeInsets.all(10),
+                    //   height: 15,width: 15,
+                    //   decoration: BoxDecoration(
+                    //       borderRadius: BorderRadius.circular(10.0,),
+                    //       color: AppColor.primary
+                    //   ),),
                   ),
                 ],
               )),
