@@ -189,6 +189,7 @@ class CommitteeScreen extends StatelessWidget {
                         const SizedBox(width: 8,),
                          Expanded(
 
+
                            child: GestureDetector(
                              onTap: _launchInstagram,
                              child: Container(
