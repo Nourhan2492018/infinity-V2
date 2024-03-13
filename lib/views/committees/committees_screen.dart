@@ -262,12 +262,7 @@ class CommitteeScreen extends StatelessWidget {
                              // title:
                               content: Image.asset
                                 (AppAssets.QRCodeImage,height: 140,width: 140),
-                             // content: Row(
-                             //   mainAxisAlignment: MainAxisAlignment.center,
-                             //   children: [
-                             //     Image.asset("name"),
-                             //   ],
-                             // ),
+
                             actionsAlignment: MainAxisAlignment.center,
                              actions: [
                                TextButton(
